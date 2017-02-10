@@ -1,1 +1,10 @@
-# Toasty
+# Toasty 吐司工具
+### 项目中要向用户进行提示就会用到Toast，当然也可以选择使用Snackbar，这里只是介绍Toast。将Toast根据自己项目的要求改造成更好看的样式，如修改背景色，添加图片等。
+### 使用方法：
+#### 1.导入module:toasty;
+#### 2.调用:我们已经对其进行了简单的封装，如防止暴露点击事件引起的长时间显示吐司。调用的方法都在ToastUtils这个工具类中，调用方法也特别简单：
+#### 1）显示一个错误提示消息
+```
+ToastUtils.showErrorToast(MainActivity.this, "This is an error toast.");
+```
+
