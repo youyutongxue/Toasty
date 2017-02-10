@@ -11,7 +11,7 @@ import es.dmoral.toasty.Toasty;
  * 吐司工具类
  */
 
-public class ToastUtils {
+public class ToastCustomUtils {
     private static Toast toast_error;
     private static Toast toast_success;
     private static Toast toast_info;
