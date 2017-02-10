@@ -7,4 +7,4 @@
 ```
 ToastUtils.showErrorToast(MainActivity.this, "This is an error toast.");
 ```
-
+![](https://github.com/youyutongxue/Toasty/blob/master/app/src/main/java/com/virgil/toasty/art/error.jpeg)
