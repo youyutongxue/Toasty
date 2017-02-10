@@ -8,3 +8,15 @@
 ToastUtils.showErrorToast(MainActivity.this, "This is an error toast.");
 ```
 ![](https://github.com/youyutongxue/Toasty/blob/master/app/src/main/java/com/virgil/toasty/art/error.jpeg)
+
+#### 2）显示一个成功提示消息
+```
+ToastCustomUtils.showSuccessToast(MainActivity.this, "Success！");
+```
+![](https://github.com/youyutongxue/Toasty/blob/master/app/src/main/java/com/virgil/toasty/art/success.jpeg)
+
+#### 3）显示一个提示信息
+```
+ToastCustomUtils.showInfoToast(MainActivity.this, "Here is some info for you.");
+```
+![](https://github.com/youyutongxue/Toasty/blob/master/app/src/main/java/com/virgil/toasty/art/info.jpeg)
