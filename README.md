@@ -20,3 +20,22 @@ ToastCustomUtils.showSuccessToast(MainActivity.this, "Success！");
 ToastCustomUtils.showInfoToast(MainActivity.this, "Here is some info for you.");
 ```
 ![](https://github.com/youyutongxue/Toasty/blob/master/app/src/main/java/com/virgil/toasty/art/info.jpeg)
+
+#### 4）显示一个警告信息
+```
+ToastCustomUtils.showWarningToast(MainActivity.this, "Beware of the dog.");
+```
+![](https://github.com/youyutongxue/Toasty/blob/master/app/src/main/java/com/virgil/toasty/art/warning.jpeg)
+
+#### 5）显示一个普通吐司
+```
+ToastCustomUtils.showNormalToast(MainActivity.this, "Normal toast w/o icon");
+```
+![](https://github.com/youyutongxue/Toasty/blob/master/app/src/main/java/com/virgil/toasty/art/normal.jpeg)
+
+#### 6）显示一个带图标的普通吐司
+```
+Drawable icon = getResources().getDrawable(R.drawable.ic_pets_white_48dp);
+ToastCustomUtils.showNormalIconToast(MainActivity.this, "Normal toast w/ icon", icon);
+```
+![](https://github.com/youyutongxue/Toasty/blob/master/app/src/main/java/com/virgil/toasty/art/normal_icon.jpeg)
